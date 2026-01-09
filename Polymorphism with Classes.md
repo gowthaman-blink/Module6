@@ -27,6 +27,7 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 
 ## 💻 Program
 ```
+
 class Beans(): 
      def type(self): 
        print("Vegetable") 
@@ -42,6 +43,7 @@ obj_mango = Mango()
 for func in (obj_beans,obj_mango): 
     func.type()
     func.color()
+
 ```
 ## Output
 
